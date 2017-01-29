@@ -12,7 +12,7 @@ namespace NtpClient
         private readonly string server;
 
         /// <summary>
-        /// Inisializes a new instance of the <see cref="NtpConnection"/> class.
+        /// Initializes a new instance of the <see cref="NtpConnection"/> class.
         /// </summary>
         /// <param name="server">The server to connect to.</param>
         public NtpConnection(string server)
