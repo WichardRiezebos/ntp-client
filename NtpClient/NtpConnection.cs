@@ -22,7 +22,8 @@ namespace NtpClient
             this.server = server;
         }
 
-        DateTime INtpConnection.GetUtc()
+        /// <inheritdoc />
+        public DateTime GetUtc()
         {
             var ntpData = new byte[48];
             ntpData[0] = 0x1B;
