@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NtpClient", "NtpClient\NtpClient.csproj", "{7489A91E-51F5-44C7-932F-6FB7464389B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7CFCA103-1195-48A6-BA4D-479C6B59B9E6}"
+	ProjectSection(SolutionItems) = preProject
+		NtpClient\NtpClient.nuspec = NtpClient\NtpClient.nuspec
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NtpClient.Tests", "NtpClient.Tests\NtpClient.Tests.csproj", "{83DC8C91-232D-4BC7-8383-A7DDBB59E35F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7489A91E-51F5-44C7-932F-6FB7464389B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7489A91E-51F5-44C7-932F-6FB7464389B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7489A91E-51F5-44C7-932F-6FB7464389B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7489A91E-51F5-44C7-932F-6FB7464389B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83DC8C91-232D-4BC7-8383-A7DDBB59E35F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83DC8C91-232D-4BC7-8383-A7DDBB59E35F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83DC8C91-232D-4BC7-8383-A7DDBB59E35F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83DC8C91-232D-4BC7-8383-A7DDBB59E35F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

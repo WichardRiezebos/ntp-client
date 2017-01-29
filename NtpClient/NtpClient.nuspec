@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>Ntp Client</title>
+    <description>Portable NuGet library/package for communicating with ntp-server(s).</description>
+    <authors>Wichard Riezebos</authors>
+    <owners>Wichard Riezebos</owners>
+    <projectUrl>https://github.com/WichardRiezebos/ntp-client</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/WichardRiezebos/ntp-client/master/icon.png</iconUrl>
+    <tags>ntp client</tags>
+  </metadata>
+</package>
