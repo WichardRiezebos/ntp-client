@@ -4,18 +4,25 @@ using System.Net.Sockets;
 
 namespace NtpClient
 {
-    public class NtpClient : INtpClient
+    /// <summary>
+    /// Represents a connection that provides information from a ntp-server.
+    /// </summary>
+    public class NtpConnection : INtpConnection
     {
         private readonly string server;
 
-        public NtpClient(string server)
+        /// <summary>
+        /// Inisializes a new instance of the <see cref="NtpConnection"/> class.
+        /// </summary>
+        /// <param name="server">The server to connect to.</param>
+        public NtpConnection(string server)
         {
             if (string.IsNullOrEmpty(server)) throw new ArgumentException("Must be non-empty", nameof(server));
 
             this.server = server;
         }
 
-        public DateTime GetUtc()
+        DateTime INtpConnection.GetUtc()
         {
             var ntpData = new byte[48];
             ntpData[0] = 0x1B;

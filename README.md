@@ -24,6 +24,6 @@ The code below is an example how to use the library.
 ```
 using NtpClient;
 
-var ntpClient = new NtpClient("pool.ntp.org");
-var utcNow = ntpClient.GetUtc(); 
+var connection = new NtpConnection("pool.ntp.org");
+var utcNow = connection.GetUtc(); 
 ```

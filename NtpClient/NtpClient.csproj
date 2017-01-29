@@ -40,8 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="INtpClient.cs" />
-    <Compile Include="NtpClient.cs" />
+    <Compile Include="INtpConnection.cs" />
+    <Compile Include="NtpConnection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
