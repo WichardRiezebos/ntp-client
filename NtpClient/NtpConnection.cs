@@ -22,6 +22,11 @@ namespace NtpClient
             _server = server;
         }
 
+        public static DateTime Utc(string server = "pool.ntp.org")
+        {
+            return new NtpConnection(server).GetUtc();
+        }
+
         /// <inheritdoc />
         public DateTime GetUtc()
         {
